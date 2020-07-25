@@ -3,6 +3,7 @@ package com.my.structure.decorator;
 import com.my.structure.entity.Bag;
 
 public class MarkBagDecorator extends BagDecorator {
+    //为了形成链式装饰
     public MarkBagDecorator(Bag bag) {
         super(bag);
     }

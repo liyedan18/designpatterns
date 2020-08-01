@@ -16,6 +16,6 @@ public class AddrNode extends Node {
     }
 
     public void addChildNode(AddrNode childNode) {
-        childNode.addChildNode(childNode);
+        this.childNode.add(childNode);
     }
 }

@@ -15,6 +15,8 @@ public class Client {
         //一级目录：省
         AddrNode beiJing = new AddrNode("北京");
         AddrNode jiangSu = new AddrNode("江苏省");
+        rootNode.addChildNode(beiJing);
+        rootNode.addChildNode(jiangSu);
 
         //二级目录：市
         beiJing.addChildNode(new AddrNode("海淀区"));
